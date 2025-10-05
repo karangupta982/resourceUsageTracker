@@ -21,10 +21,10 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Make script executable
-        run: chmod +x projects/resourceTracker/resourceTrackerUsage.sh
+        run: chmod +x resourceUsageTracker/resourceTracker.sh
 
       - name: Run AWS usage tracker script
-        run: ./projects/resourceTracker/resourceTrackerUsage.sh > resource_usage.log 2>&1
+        run: ./resourceUsageTracker/resourceTracker.sh > resource_usage.log 2>&1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
