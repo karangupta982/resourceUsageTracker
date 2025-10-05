@@ -22,7 +22,7 @@ async function sendEmail() {
     // Send mail
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
-      to: "gupta.karan.gh@gmail.com",
+      to: process.env.RECEIVERS_EMAIL,
       subject: "Daily AWS Usage Report",
       text: emailBody,
     });
