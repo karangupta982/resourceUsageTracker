@@ -38,5 +38,6 @@ jobs:
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          RECEIVERS_EMAIL: ${{ secrets.RECEIVERS_EMAIL }}
         run: node scripts/sendEmail.js
 
