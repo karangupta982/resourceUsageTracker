@@ -21,7 +21,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Make script executable
-        run: chmod +x resourceUsageTracker/resourceTracker.sh
+        run: chmod +x resourceTracker.sh
 
       - name: Run AWS usage tracker script
         run: ./resourceUsageTracker/resourceTracker.sh > resource_usage.log 2>&1
