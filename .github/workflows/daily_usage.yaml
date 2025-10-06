@@ -24,7 +24,7 @@ jobs:
         run: chmod +x resourceTracker.sh
 
       - name: Run AWS usage tracker script
-        run: ./resourceUsageTracker/resourceTracker.sh > resource_usage.log 2>&1
+        run: ./resourceTracker.sh > resource_usage.log 2>&1
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
