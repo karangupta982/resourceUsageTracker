@@ -1,4 +1,3 @@
-```md
 # AWS Resource Usage Tracker
 
 This project automatically tracks your daily AWS resource usage (including EC2, S3, Lambda, and IAM) and sends a daily email report using GitHub Actions, Node.js, and Nodemailer.
@@ -166,4 +165,3 @@ admin-user    AIDABCDEFG1234
 * Integrate with Slack or Discord for notifications
 * Multi-account AWS reporting
 
-```
