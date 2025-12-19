@@ -2,6 +2,9 @@
 
 This project automatically tracks your daily AWS resource usage (including EC2, S3, Lambda, and IAM) and sends a daily email report using GitHub Actions, Node.js, and Nodemailer.
 
+
+![AWS Resource Tracker Email Image](./assets//awsresourcetrackerimg1.jpeg)
+
 ---
 
 ## Features
